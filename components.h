@@ -13,7 +13,7 @@
 #include <signal.h>
 
 #define NUM_OF_CPUS get_nprocs()
-#define WAIT_TIME_SECS 4
+#define WAIT_TIME_SECS 2
 
 // Information about one CPU from /proc/stat
 typedef struct{
