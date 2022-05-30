@@ -342,6 +342,7 @@ void* watchdog(void) {
 		worst case the program will not print the result in <6secs 
 		OR if the 2secs is the global time in which every three
 		operations should fit.
+	IMPORTANT:
 		I assumed that 2secs is the global time, but it turned out that
 		in that scenario the timeout occured pretty quickly.
 		Increasing the wait time I observed no timeout with its value
